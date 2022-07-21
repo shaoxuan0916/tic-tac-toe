@@ -78,7 +78,7 @@ const Board = () => {
 
             {!winner ?
 
-                <p className='instruction'>Hey {currentPlayer}, it's your turn!</p> :
+                <p className='instruction'>Hey {currentPlayer},  {"it's your turn!"}</p> :
 
                 <p className='instruction'>{winner} Win!</p>
 
